@@ -1,12 +1,38 @@
 {
   "posts": [
-    { "id": 1, "title": "Post 1" },
-    { "id": 2, "title": "Post 2" },
-    { "id": 3, "title": "Post 3" }
+    {
+      "id": 1,
+      "title": "Post 1",
+      "image":"https://avatars.githubusercontent.com/u/1467716?v=4",
+      "price":500,
+      "determine":true
+    },
+    {
+      "id": 2,
+      "title": "Post 2",
+      "image":"https://avatars.githubusercontent.com/u/43296467?v=4",
+      "price":100,
+      "determine":true
+    },
+    {
+      "id": 3,
+      "title": "Post 3",
+      "image":"https://avatars.githubusercontent.com/u/15693688?v=4",
+      "price":200,
+      "determine":false
+    }
   ],
   "comments": [
-    { "id": 1, "body": "some comment", "postId": 1 },
-    { "id": 2, "body": "some comment", "postId": 1 }
+    {
+      "id": 1,
+      "body": "some comment",
+      "postId": 1
+    },
+    {
+      "id": 2,
+      "body": "some comment",
+      "postId": 1
+    }
   ],
   "profile": {
     "name": "typicode"
